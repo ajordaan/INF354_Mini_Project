@@ -1,0 +1,23 @@
+https://youtu.be/NyI5GPbCNfY
+Understanding Bootstrap 3 Grid System 
+
+https://youtu.be/6adg6DRfIHI
+Part 1 - Step-by-step ASP.NET MVC Tutorial for Beginners | How to create a - website using MVC 
+
+https://youtu.be/zOjNbxvVZLU
+Linq + EntityFramework 5.1 + Lamda Expressions Beginner to Advance 
+
+https://youtu.be/o3ROFXgvXsM
+C# Entity Framework 6 Database First Complete Tutorial 
+
+https://youtu.be/dPMymRGs4Bo
+Asp.net panel control Part 42 
+
+Further reference https://youtu.be/3AYoipyqOkQ
+What is ASP.NET Part 1 
+
+https://youtu.be/0pcM6teVdKk
+What is ASP NET Web API 
+
+https://youtu.be/2AWVs7SzOXM
+Building ASP.NET MVC Forms with Razor (ASP.NET MVC Foundations Series)
