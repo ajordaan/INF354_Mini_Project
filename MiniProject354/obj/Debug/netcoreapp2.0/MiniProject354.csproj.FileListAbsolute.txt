@@ -1,8 +1,0 @@
-D:\Media\Drive\University\2018\S1\INF 354\MiniProj\MiniProject354\MiniProject354\bin\Debug\netcoreapp2.0\MiniProject354.deps.json
-D:\Media\Drive\University\2018\S1\INF 354\MiniProj\MiniProject354\MiniProject354\bin\Debug\netcoreapp2.0\MiniProject354.runtimeconfig.json
-D:\Media\Drive\University\2018\S1\INF 354\MiniProj\MiniProject354\MiniProject354\bin\Debug\netcoreapp2.0\MiniProject354.runtimeconfig.dev.json
-D:\Media\Drive\University\2018\S1\INF 354\MiniProj\MiniProject354\MiniProject354\bin\Debug\netcoreapp2.0\MiniProject354.dll
-D:\Media\Drive\University\2018\S1\INF 354\MiniProj\MiniProject354\MiniProject354\obj\Debug\netcoreapp2.0\MiniProject354.csprojResolveAssemblyReference.cache
-D:\Media\Drive\University\2018\S1\INF 354\MiniProj\MiniProject354\MiniProject354\obj\Debug\netcoreapp2.0\MiniProject354.csproj.CoreCompileInputs.cache
-D:\Media\Drive\University\2018\S1\INF 354\MiniProj\MiniProject354\MiniProject354\obj\Debug\netcoreapp2.0\MiniProject354.AssemblyInfoInputs.cache
-D:\Media\Drive\University\2018\S1\INF 354\MiniProj\MiniProject354\MiniProject354\obj\Debug\netcoreapp2.0\MiniProject354.AssemblyInfo.cs

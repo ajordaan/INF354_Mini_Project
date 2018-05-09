@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ec5f8ec4a29546a5843ce528ca0a8c7a" Name="Diagram1">
+        <EntityTypeShape EntityType="furnatureModel.car" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="furnatureModel.car_type" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="furnatureModel.customer" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="furnatureModel.customer_title" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="furnatureModel.rental" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="furnatureModel.FK__car__car_type_id__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="furnatureModel.FK__rental__car_id__1B0907CE" ManuallyRouted="false" />
+        <AssociationConnector Association="furnatureModel.FK__customer__title___1273C1CD" ManuallyRouted="false" />
+        <AssociationConnector Association="furnatureModel.FK__rental__customer__1A14E395" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
