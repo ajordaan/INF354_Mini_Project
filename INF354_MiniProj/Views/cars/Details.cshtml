@@ -1,0 +1,42 @@
+﻿@model INF354_MiniProj.Models.car
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>car</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.car_make)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.car_make)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.car_model)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.car_model)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.car_type.car_type_description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.car_type.car_type_description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.car_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

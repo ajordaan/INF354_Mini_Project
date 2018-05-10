@@ -1,0 +1,45 @@
+﻿@model IEnumerable<INF354_MiniProj.Models.car>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.car_make)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.car_model)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.car_type.car_type_description)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.car_make)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.car_model)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.car_type.car_type_description)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.car_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.car_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.car_id })
+        </td>
+    </tr>
+}
+
+</table>

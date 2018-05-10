@@ -1,0 +1,51 @@
+﻿@model IEnumerable<INF354_MiniProj.Models.rental>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.date_from)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.date_to)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.car.car_make)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.customer.first_name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.date_from)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.date_to)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.car.car_make)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.customer.first_name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.rental_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.rental_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.rental_id })
+        </td>
+    </tr>
+}
+
+</table>
