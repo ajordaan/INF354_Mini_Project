@@ -266,6 +266,7 @@
     <Content Include="Views\rentals\Details.cshtml" />
     <Content Include="Views\rentals\Edit.cshtml" />
     <Content Include="Views\rentals\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

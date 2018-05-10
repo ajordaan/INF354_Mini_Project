@@ -1,0 +1,43 @@
+﻿@model IEnumerable<INF354_MiniProj.Models.customer>
+
+
+    @{
+        ViewBag.Title = "Login";
+    }
+    
+    <form method="GET">
+        <h2>Login</h2>
+        <div class="form-group">
+            <label class="control-label col-md-2" for="searchterm">e-mail</label>
+            <input class="form-control" type="search" id="searchterm" name="searchterm" placeholder="Login with your email" />
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="submit" value="Login" />
+        </div>
+    </form>
+    @try
+    {
+        int counter = 0;
+        foreach (var item in Model)
+        {
+            counter++;
+            <h3>Welcome Back@Html.DisplayFor(modelItem => item.first_name) @Html.DisplayFor(modelItem => item.surname)!</h3>
+            break;
+        }
+        if (counter == 0)
+        {
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h3>User not found</h3>
+                </div>
+                <div class="panel-body">
+                    <p>Create an account here @Html.ActionLink("Register", "Create", "customers")</p>
+                </div>
+            </div>
+        }
+
+    }
+    catch (NullReferenceException nullex)
+    {
+        <p>@nullex</p>
+    }
