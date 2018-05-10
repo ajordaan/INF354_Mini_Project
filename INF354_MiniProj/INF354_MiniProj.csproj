@@ -267,6 +267,7 @@
     <Content Include="Views\rentals\Edit.cshtml" />
     <Content Include="Views\rentals\Index.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\Rent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

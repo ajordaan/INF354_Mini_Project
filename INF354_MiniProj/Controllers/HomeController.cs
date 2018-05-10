@@ -26,16 +26,25 @@ namespace INF354_MiniProj.Controllers
                 where cust.email == searchterm
                 select cust;
 
+            custQuery.Where(c => c.email == searchterm);
+
             return View(custQuery);
-            
-           
         }
 
-        public ActionResult Contact()
+        public ActionResult Rent(string rental = null,string email = null)
         {
             ViewBag.Message = "Your contact page.";
 
-            return View();
+            var _db = new furnatureEntities();
+
+            IQueryable<customer> custQuery =
+                from cust in _db.customers
+                where cust.email == email
+                select cust;
+
+            custQuery.Where(c => c.email == email);
+
+            return View(custQuery);
         }
     }
 }
